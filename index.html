@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espacio Decora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: sticky;
+            top: 0%;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            height: 600px;
+        }
+        div {
+            margin-top: 200px;
+            align-items: center;
+        }
+        #inicio {
+            background-color: #f4f4f4;
+        }
+        #quienes-somos {
+            background-color: #e2e2e2;
+        }
+        #servicios {
+            background-color: #d1d1d1;
+        }
+        #contacto {
+            background-color: #c0c0c0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+        }
+
+        footer .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        footer .social-links a {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        /* Estilos para el menú móvil */
+        @media screen and (max-width: 768px) {
+            nav {
+                text-align: center;
+                padding: 10px;
+            }
+            nav a {
+                display: block;
+                margin: 0px 0;
+            }
+
+            footer .social-links {
+                flex-direction: column;
+                position: sticky;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+                background-color: #333;
+                padding: 10px;
+                border-radius: 0 5px 5px 0;
+            }
+
+            footer .social-links a {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navegación -->
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#quienes-somos">Quiénes Somos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- Secciones -->
+    <section id="inicio">
+        <div>
+        <h1>Bienvenidos a Espacio Decora</h1>
+        <p>En Espacio Decora, creamos productos textiles para la mesa que combinan estilo, funcionalidad y respeto por el medio ambiente. Nuestros productos están hechos con telas de alta calidad, como algodón repelente a líquidos, que no requieren lavado frecuente. Personalizamos manteles a la medida de tu mesa y ofrecemos una selección de individuales, servilletas, paneras, y más, diseñados para hacer de cada comida una experiencia especial.</p>
+    </div>
+    </section>
+
+    <section id="quienes-somos">
+        <div>
+        <h2>Pasión por la Creación Textil</h2>
+        <p>Espacio Decora nace de la pasión por los detalles y la confección artesanal. Soy [Tu Nombre], la persona detrás de cada producto que ves. Trabajo sola, cuidando cada etapa del proceso: desde la selección de telas hasta la confección, fotografía, gestión de redes sociales y envíos. Mi taller no es una tienda física, es un espacio donde la creatividad cobra vida en cada puntada, situado en Ñuñoa. Mi compromiso es ofrecerte productos únicos que embellezcan tu mesa y hagan que cada reunión sea especial.</p>
+    </div>
+    </section>
+
+    <section id="servicios">
+        <div>
+        <h2>Lo que Ofrecemos</h2>
+        <ul>
+            <li>Manteles Personalizados: Confeccionamos manteles a la medida de tu mesa, adaptándonos a tus necesidades y gustos.</li>
+            <li>Individuos y Servilletas: Productos que combinan diseño y funcionalidad, hechos con telas repelentes a líquidos para mayor comodidad.</li>
+            <li>Paneras y Más: Complementos textiles que aportan un toque especial a tu mesa.</li>
+            <li>Compromiso con el Medio Ambiente: Nuestras telas de alta calidad reducen la necesidad de lavados frecuentes, ayudando a cuidar el planeta.</li>
+        </ul>
+    </div>
+    </section>
+
+    <section id="contacto">
+        <div>
+        <h2>Conecta con Nosotros</h2>
+        <p>Aunque no contamos con una tienda física, estamos aquí para ti. Puedes contactarnos a través de nuestras redes sociales o enviarnos un mensaje directo. Estamos en Ñuñoa, pero realizamos envíos a todo el país. ¡Déjanos ser parte de tus momentos especiales!</p>
+    </div>
+    </section>
+
+    <!-- Footer con redes sociales -->
+    <footer>
+        <div class="social-links">
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+        </div>
+    </footer>
+
+</body>
+</html>
